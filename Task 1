@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int i,n,score=0;
+    for(i=1;i<=5;i++)
+    {
+     switch(i)
+     {
+        case 1: printf("\n Who is popularly known as the Iron Man of India ? \n");
+                printf(" 1.Lal Bahadur Shastri\t 2.Sardar Vallabh Bhai Patel\n 3.Mahatma Gandhi\t 4.Dr. B.R Ambedkar\n");
+                printf("\n choose one option from above :\t");
+                scanf("%d",&n);
+                printf("\n - - - - Answer Feedback - - - - \n");
+                if(n==2)
+                {
+                    printf("\n Your answer is correct !\n");
+                    score=score+10;
+                    printf(" Your score is = %d\n",score);
+                }
+                else
+                {
+                    printf("\n Oops ! Your answer is wrong\n");
+                    printf("Your score is = %d\n ",score);
+                }
+                break;
+        case 2: printf("\n Who was the first Prime Minister of India ? \n");
+                printf(" 1.Indira Gandhi\t 2.Narendra Modi\n 3.Jawaharlal Nehru\t 4.Rajiv Gandhi\n");
+                printf("\n choose one option from above :\t");
+                scanf("%d",&n);
+                printf("\n - - - - Answer Feedback - - - - \n");
+                if(n==3)
+                {
+                    printf("\n Your answer is correct ! \n ");
+                    score=score+10;
+                    printf("Your score is = %d\n",score);
+                }
+                else
+                {
+                    printf("\n Oops ! Your answer is wrong \n");
+                    printf(" Your score is = %d\n",score);
+                }
+                break;
+        case 3: printf("\n Which is the national sport of India ? \n");
+                printf(" 1.Cricket\t 2.Hockey\n 3.Kabaddi\t 4.Football\n");
+                printf("\n choose one option from above :\t");
+                scanf("%d",&n);
+                printf("\n - - - - Answer Feedback - - - - \n");
+                if(n==2)
+                {
+                    printf("\n Your answer is correct ! \n ");
+                    score=score+10;
+                    printf("Your score is = %d\n",score);
+                }
+                else
+                {
+                    printf("\n Oops ! Your answer is wrong \n");
+                    printf(" Your score is = %d\n",score);
+                }
+                break;
+        case 4: printf("\n What is the capital city of India ? \n");
+                printf(" 1.New Delhi\t 2.Mumbai\n 3.Kolkata\t 4.Chennai\n");
+                printf("\n choose one option from above :\t");
+                scanf("%d",&n);
+                printf("\n - - - - Answer Feedback - - - - \n");
+                if(n==1)
+                {
+                    printf("\n Your answer is correct ! \n ");
+                    score=score+10;
+                    printf("Your score is = %d\n",score);
+                }
+                else
+                {
+                    printf("\n Oops ! Your answer is wrong \n");
+                    printf(" Your score is = %d\n",score);
+                }
+                break;
+        case 5: printf("\n Who is Sachin Tendulkar ? \n");
+                printf(" 1.Indian Hockey player\t 2.Indian Marathon Runner\n 3.Indian Kabaddi player\t 4.Indian Cricketer\n");
+                printf("\n choose one option from above :\t");
+                scanf("%d",&n);
+                printf("\n - - - - Answer Feedback - - - - \n");
+                if(n==4)
+                {
+                    printf("\n Your answer is correct ! \n ");
+                    score=score+10;
+                    printf("Your score is = %d\n",score);
+                }
+                else
+                {
+                    printf("\n Oops ! Your answer is wrong \n");
+                    printf(" Your score is = %d\n",score);
+                }
+                break;
+      }
+   }
+}
